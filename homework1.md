@@ -7,6 +7,25 @@ Homework 1 SQL.
 - employee_name. Varchar(50), not null  
 Наполнить таблицу employee 70 строками.
 
+create table employees (  
+	id serial primary key,  
+	employee_name varchar(50) not null  
+);  
+
+insert into employees (employee_name)  
+values ('Liam'), ('Emma'), ('Noah'), ('Olivia'), ('Mason'), ('Ava'), ('Ethan'), ('Sophia'), ('Logan'),  
+	('Isabella'), ('Lucas'), ('Mia'), ('Jackson'), ('Charlotte'), ('Aiden'), ('Amelia'), ('Oliver'), ('Emily'),  
+	('Jacob'), ('Madison'), ('Elijah'), ('Harper'), ('Alexander'), ('Abigail'), ('James'), ('Avery'),  
+	('Benjamin'), ('Lily'), ('Jack'), ('Ella'), ('Luke'), ('Chloe'), ('William'), ('Evelyn'), ('Michael'),  
+	('Sofia'), ('Owen'), ('Aria'), ('Daniel'), ('Ellie'), ('Carter'), ('Aubrey'), ('Gabriel'), ('Scarlett'),  
+	('Henry'), ('Zoey'), ('Matthew'), ('Hannah'), ('Wyatt'), ('Audrey'), ('Caleb'), ('Grace'), ('Jayden'),  
+	('Addison'), ('Nathan'), ('Zoe'), ('Ryan'), ('Elizabeth'), ('Isaac'), ('Nora'), ('Dmitry'), ('Fedor'),  
+	('Kristina'), ('Polina'), ('Nikolai'), ('Loki'), ('Ludmila'), ('Harry'), ('Vladimir'), ('Nataliya');
+
+select* from employees;
+
+drop table employees;
+
 > Таблица salary
 
 Создать таблицу salary  
